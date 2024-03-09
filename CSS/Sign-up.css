@@ -1,0 +1,107 @@
+body{
+background-image: url(../simon-hajducki-yGMw4KpX4CE-unsplash.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+height: 100%;
+}
+nav{
+    place-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10rem;
+width: 70%;
+margin-left: 15%;
+background: transparent;
+    backdrop-filter: blur(10px);
+}
+ul{
+display: flex;
+justify-content: space-evenly;
+padding: 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link{
+    position: relative;
+    list-style: none;
+    padding: 4px 0;
+}
+a:hover{
+    color: blue;
+}
+.link::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.link::before{
+    left: 0;
+    bottom: 0;
+    transform-origin: left;
+}
+.link:hover::after,
+.link:hover::before{
+    width: 100%;}
+    .container{
+        border: 1px solid white;
+        height: 500px;
+        width: 500px;
+        border-radius: 2rem;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        margin-left: 38%;
+        margin-top: 10%;
+    }
+    h1{
+        color: #fff;
+        place-content: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .form input{
+        padding: 10px;
+        margin-left: 22%;
+        border-radius: 10px;
+        background-color: transparent;
+        justify-content: center;
+        margin-bottom: 20px;
+        width: 50%;
+        display: block;
+        border-color: black;
+        color: #fff;
+    }
+    .form label{
+display: block;
+color: #fff;
+font-size: 25px;
+    }
+    .form{
+        text-align: center;
+        align-items: center;
+    }
+    .form input[type=submit]
+    {
+        width: 55%;
+        border-color: white;
+        text-align: center;
+        color:black;
+        background-color: #fff;
+        padding: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+    
+ 

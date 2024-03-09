@@ -1,0 +1,177 @@
+
+body{
+    
+
+    background-image: url(../jake-blucker-c6miNI_WdZ4-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+margin-left: 18%;
+background-color: #222;
+border: 1px solid white;
+border-radius: 2rem;
+width: 70%;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+a{
+font-family: poppins;
+font-size: 1.5rem;
+text-decoration: none;
+color: #fff;
+
+}
+.link{
+    position: relative;
+    list-style: none;
+    padding: 4px 0;
+}
+
+.link::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.link::before{
+    left: 0;
+    bottom: 0;
+    transform-origin: left;
+}
+a:hover{
+    color: blue;
+}
+
+.link:hover::after,
+.link:hover::before{
+    width: 100%;
+}
+h1{
+    border: 1px solid red;
+    width: 50%;
+    border-radius: 4rem;
+    font-size: 40px;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left:28%;
+    margin-top: 10%;
+}
+.fa-circle-user{
+    font-size: 70px;
+}
+
+
+.container{
+    margin: 30%;
+    width: 50%;
+    background-color: transparent;
+    backdrop-filter: (20px);
+    color: #fff;
+    border: none;
+}
+.square{
+   
+    border-radius: 3rem;
+    border: 1px solid whitesmoke;
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 5PX;
+    padding-bottom: 5PX;
+    background-color: #fff;
+    color: #222;
+}
+.my-form label{
+    display: block;
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.my-form{
+    margin-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my-form input{
+border-radius: 10px;
+width: 80%;
+padding: 6px;
+color: #fff;
+}
+.speak{
+    border: 1px solid whitesmoke;
+    border-radius: 3rem;
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 5PX;
+    padding-bottom: 5px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    place-content: center;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+}
+.go{
+    margin-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+   
+}
+.pen{
+    background-color: aqua;
+} 
+.go input{
+    padding: 6px;
+    display: block;
+    text-align: justify;
+  
+    
+}
+.go input[type=submit] { 
+    margin: 28%;
+    background-color: yellow;
+    color: black;
+    width: 30%;
+align-items: center;
+place-content: center;
+cursor: pointer;
+border-radius:1rem;
+border: none;
+text-align: center;
+padding: 20px;
+font-size: 1rem;
+
+}
+
+ .go input[type=reset]{
+    margin: 28%;
+    background-color: red;
+    border-radius:1rem;
+    text:center;
+    border: none;
+    width: 30%;
+   cursor: pointer;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   font-size: 1rem;
+
+ }
+
+    

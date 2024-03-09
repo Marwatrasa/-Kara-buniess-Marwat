@@ -1,0 +1,156 @@
+body{
+   background-image: url(../Space-Background-Image-5.jpg);
+   height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    margin: auto;
+    align-items: center;
+    
+}
+.link{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    position: relative;
+    align-items: center;
+    place-content: center;
+    align-items: center;
+    place-content: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+    
+a:hover,
+a:focus-visible{
+    color: blue;
+}
+
+
+
+
+ul{
+    display: flex;
+border: 2px solid white;
+    border-radius: 5rem;
+    position: sticky;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+background-color: black;
+color: white;
+    align-items: center;
+    gap: 5rem;
+    place-content: center;
+    justify-content: space-evenly;
+}
+h1 {
+    font-size: 9rem;
+    text-align: center;
+color: white;
+
+padding-top: 20%;
+}
+.book{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 28%;
+    margin-top: 20%;
+    
+}
+.book p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: white;
+       
+}
+.hello{ border: 2px solid black;
+    width: 30%;
+border-radius: 2rem;
+background-color: blue;
+color: white;
+margin-left: 40%;
+box-sizing: border-box ;
+}
+h2{
+   text-align: center;
+
+}
+.hi{
+    margin-left: 30%;
+    align-items: center;
+    margin-right: 20%;
+}
+.hi p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.sun{
+    margin-left:15%;
+    text-align: center;
+}
+.sun p{
+    font-size: 1.5rem;
+    padding-left: 5%;
+    color: white;
+}
+.i-see{
+    margin-left: 14%;
+    text-align: center;
+
+}
+.i-see p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+.table h2{
+    border: 2px solid black;
+    border-radius: 5rem;
+    background-color: blue;
+    width: 20rem;
+    margin-left: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.love{
+    height: 10rem;
+margin-left: 30%;
+}
+
+td {
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding-left: 6rem;
+    
+}
+th {
+    font-size: 2rem;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+th:first-child{
+    background-color: #ff00c3;
+}
+th:nth-child(2){
+    background-color: #ff00c3;
+}
+td:first-child{
+    background-color: deepskyblue;
+}
+td:nth-child(2){
+    background-color: deepskyblue ;
+    
+}
